@@ -1,0 +1,271 @@
+body {
+    font-family: 'Inter', 'Noto Sans', Arial, sans-serif; /*Подключение шрифтов*/
+    margin: 0px; /*Отключение отступов для фона*/
+}
+.popular_product { /*Корректировака панели популярные продукты*/
+    display: flex;
+    gap: 10px; /*Отступ*/
+    justify-content: left; /*Место раположения контента*/
+    margin-bottom: 30px;
+}
+.popular_product__text { /*Корректировака текста*/
+    margin-left: 68px; /*Отступ*/
+    margin-right: 700px; /*Отступ*/
+    font-weight: 600; /*Размер толщины шрифта*/
+    font-size: 30px; /*Размер шрифтв*/
+}
+.popular_product__nav { /*Корректировка навигационных кнопок в панеле популярных продуктов*/
+    margin-top: 25px;
+    width: 50px; /*Ширина*/
+    height: 50px; /*Высота*/
+    margin-left: 50px;
+}
+.products { /*Корректировака расположения карточек товаров*/
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    width: 1450px;
+    flex-wrap: wrap;
+}
+.products__door { /*Корректировка отступов карточек*/
+    border-width: 2px; /*Создание рамки для карточек*/
+    border-style: solid; /*тип рамки*/
+    border-color: #EAEAEA; /*Цвет рамки*/
+    margin-bottom: 80px;
+    padding-bottom: 10px; /*Расположение*/
+    padding-top: 20px; /*Расположение*/
+}
+.products__door__img { /*Корректировка иконки наличия товара*/
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+}
+.products__door__have { /*Корректировка текста о наличии*/
+    margin-left: 35px;
+    margin-bottom: -7px;
+    position: absolute;
+    color: #454F5B; /*Цвет*/
+}
+.products__door__gift { /*Корректировка иконки подарка*/
+    margin-left: 15px;
+    margin-top: 35px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+.products__door__gifttext { /*Корректировка текста о подарке и заднего фона текста*/
+    background-size: 100px; /*Размер заднего фона*/
+    margin-top: 30px;
+    margin-left: 35px;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    background: #FFFAFA; /*Цвет фона*/
+    text-align: center;
+}
+.products__door__sale { /*Корректировка текста о скидке и заднего фона*/
+    margin-left: 220px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 20px;
+    background: #FFFAFA;
+    text-align: center; /*Расположение текста*/
+}
+.products__door__lock { /*Корректировка размера и отступов картинки*/
+    width: 288px;
+    height: 320px;
+    margin-top: -50px;
+    display: block;
+}
+.products__door__text { /*Корректировка текста с информацией о покупке*/
+    max-width: 250px;
+    white-space: pre-wrap; /*Перенос текста*/
+    margin-left: 18px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #454F5B;
+}
+.products__door__price { /*Корректировка текста с ценой*/
+    margin-left: 18px;
+    margin-bottom: -19px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.products__door__oldprice { /*Корректировка текста со старой ценой*/
+    margin-left: 100px;
+    color: gray;
+}
+.call { 
+    background-color: #F2F8FF; /*Создание заднего фона*/
+    padding-top: 30px;
+}
+.call__text { /*Корректировка текста с информацией об обратной связи*/
+    margin-left: 570px;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.call__call { /*Корректировка текста с информацией об обратной связи*/
+    max-width: 550px;
+    white-space: pre-wrap;
+    margin-left: 450px;
+    text-align: center;
+    color: #454F5B;
+}
+.call__name { /*Корректировка кнопки ввода имени*/
+    background-color: #161C240A;
+    border-width: 0px;
+    width: 240px;
+    height: 50px;
+    margin: 24px;
+    margin-left: 340px;
+    margin-bottom: 50px;
+}
+.call__name__hyperlink { /*Корректировка гиперссылки*/
+    color: #454F5B;
+    margin-right: 120px;
+}
+.call__email { /*Корректировка кнопки ввода email*/
+    background-color: #161C240A;
+    border-width: 0px;
+    width: 240px;
+    height: 50px;
+}
+.call__email__hyperlink { /*Корректировка гиперссылки*/
+    color: #454F5B;
+    margin-right: 120px;
+}
+.call__send { /*Корректировка кнопки отправки*/
+    background-color: #4295E4;
+    border-width: 0px;
+    width: 220px;
+    height: 50px;
+    margin-bottom: -100px;
+    position: sticky;
+    margin-left: 24px;
+}
+.call__send__hyperlink { /*Корректировка гиперссылки*/
+    text-decoration: none; /*Удаление выделения гиперссылки*/
+    color: white;
+    font-weight: 600;
+}
+.pictures__logo { /*Корректировка расположения и размера логотипа сайта*/
+    margin-top: 55px;
+    margin-left: 100px;
+    width: 106px;
+    height: 88px;
+}
+.pictures__facebook { /*Корректировка расположения и размера логотипа facebook*/
+    margin-bottom: -130px;
+    margin-left: -130px;
+    width: 26px;
+    height: 26px;
+    margin-right: 24px;
+}
+.pictures__twitter { /*Корректировка расположения и размера логотипа twitter*/
+    margin-bottom: -130px;
+    width: 26px;
+    height: 26px;
+    margin-right: 24px;
+}
+.pictures__vk { /*Корректировка расположения и размера логотипа vk*/
+    margin-bottom: -130px;
+    width: 26px;
+    height: 26px;
+}
+.navigation { /*Создание заднего фона в панеле навигации*/
+    background-color: #0D2436;
+    padding-bottom: 30px;
+}
+.navigation__list { /*Корректировка списка*/
+    list-style-type: none;
+    margin-left: 300px;
+    margin-top: -120px;
+}
+.navigation__list__text { /*Корректировка текста*/
+    color: white;
+}
+.navigation__list__element { /*Корректировка текста*/
+    margin-top: 16px;
+}
+.navigation__list__hyperlink { /*Корректировка гиперссылки*/
+    text-decoration: none;
+    color: white;
+}
+.navigation__contact { /*Корректировка списка*/
+    margin-left: 600px;
+    margin-top: -185px;
+}
+.navigation__contact__text { /*Корректировка текста*/
+    color: white;
+}
+.navigation__contact__telephone { /*Корректировка текста*/
+    color: white;
+}
+.navigation__contact__telephone_text { /*Корректировка текста*/
+    color: lightgray;
+}
+.navigation__contact__telephone__number { /*Корректировка текста*/
+    margin-top: 16px;
+    color: white;
+}
+.navigation__contact__email { /*Корректировка текста*/
+    color: white;
+}
+.navigation__contact__email__text { /*Корректировка текста*/
+    margin-top: 16px;
+    color: lightgray;
+}
+.navigation__contact__email__mail { /*Корректировка текста*/
+    margin-top: 16px;
+}
+.navigation__adress { /*Корректировка списка*/
+    margin-left: 870px;
+    margin-top: -255px;
+}
+.navigation__adress__text { /*Корректировка текста*/
+    color: white;
+}
+.navigation__adress__adress { /*Корректировка текста*/
+    color: white;
+    max-width: 170px;
+    white-space: normal;
+}
+.navigation__information { /*Корректировка списка*/
+    list-style-type: none;
+    margin-left: 1100px;
+    margin-top: -100px;
+}
+.navigation__information__text { /*Корректировка текста*/
+    color: white;
+}
+.navigation__information__element { /*Корректировка текста*/
+    margin-top: 16px;
+}
+.navigation__information__hyperlink { /*Корректировка гиперссылки*/
+    text-decoration: none;
+    color: white;
+}
+.navigation__2021 { /*Корректировка текста*/
+    margin-top: 200px;
+    color: lightgray;
+    margin-left: 580px;
+}
+.theme_btn{
+    background-color: rgb(162, 162, 162);
+}
+.theme_btn_call{
+    background-color: rgb(186, 186, 186);
+}
+.theme{
+    margin-left: 800px;
+    padding: 10px;
+    background-color: #454F5B;
+    color: white;
+    border-width: 3px;
+    border-color: white;
+}
+.btn{
+    margin-top: -1295px;
+}
